@@ -1,0 +1,22 @@
+
+<%- include('header') -%>
+
+    <div class="main-block">
+      <h1>Registration</h1>
+      <form action="/route/post", method="POST">
+        <hr>
+        <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+        <input type="text" name="Mail" id="name" placeholder="Email" required/>
+        <label id="icon" for="name"><i class="fas fa-user"></i></label>
+        <input type="text" name="Name" id="name" placeholder="Name" required/>
+        <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
+        <input type="password" name="Password" id="name" placeholder="Password" required/>
+        <hr>
+        <div class="btn-block">
+          <p>By clicking Register, you agree on our <a href="https://www.w3docs.com/privacy-policy">Privacy Policy for W3Docs</a>.</p>
+          <button type="submit" href="/">Submit</button>
+        </div>
+      </form>
+    </div>
+  
+<%- include('footer') -%>
